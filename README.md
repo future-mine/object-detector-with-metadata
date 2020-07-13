@@ -119,3 +119,27 @@ We offer community support for all our software on our Campfire forum. [Ask a qu
 ## License
 
 Objector Detector is licensed under a [GNU AGPLv3 License](/LICENSE.txt).
+
+
+
+
+## Run the script
+1. Install python 3.7
+
+2. Install opencv module
+    pip install opencv-python
+    pip install tensorflow==1.15
+    pip install keras==2.3.1
+    pip install imageai
+    pip install python-xmp-toolkit
+    
+    
+    * If you are using linux or mac os.
+        pip3 install opencv-python
+        pip3 install tensorflow==1.15
+        pip3 install keras==2.3.1
+        pip3 install imageai
+3. Run the script
+    python object-detector.py <image folder name>  <percentage>
+    ex:
+    python object-detector.py testimages 25
